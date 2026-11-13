@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node / frontend
+node_modules/
+.vite/
+
+# Secrets
+.env.*
+!.env.example
+
+# MovieLens (license forbids redistribution)
+eval/data/
+
+# macOS
+.DS_Store
+
+# Keep the frontend's lib folder (shadcn/ui puts code there)
+!frontend/src/lib/
